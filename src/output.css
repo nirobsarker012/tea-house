@@ -833,12 +833,24 @@ video {
   margin-top: 1rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mb-\[30px\] {
-  margin-bottom: 30px;
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .box-border {
@@ -982,6 +994,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[320px\] {
+  width: 320px;
 }
 
 .max-w-\[340px\] {
@@ -1483,6 +1499,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -1763,6 +1783,10 @@ video {
   border-width: 0px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1819,6 +1843,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-\[\#D2D2D2\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(210 210 210 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#fff\] {
@@ -2165,6 +2194,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -2259,6 +2298,10 @@ video {
 
 .text-\[48px\] {
   font-size: 48px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
@@ -2736,11 +2779,6 @@ video {
     width: 75%;
   }
 
-  .md\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -2749,6 +2787,26 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .md\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:text-\[14px\] {
@@ -2765,48 +2823,25 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-80 {
-    top: 20rem;
-  }
-
-  .lg\:top-\[80px\] {
-    top: 80px;
-  }
-
-  .lg\:top-\[\] {
-    top: ;
-  }
-
-  .lg\:top-\[300px\] {
-    top: 300px;
-  }
-
-  .lg\:top-\[440px\] {
-    top: 440px;
-  }
-
-  .lg\:top-\[340px\] {
-    top: 340px;
-  }
-
-  .lg\:left-40 {
-    left: 10rem;
+  .lg\:left-12 {
+    left: 3rem;
   }
 
   .lg\:left-36 {
     left: 9rem;
   }
 
-  .lg\:left-20 {
-    left: 5rem;
+  .lg\:top-\[340px\] {
+    top: 340px;
   }
 
-  .lg\:left-12 {
-    left: 3rem;
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .lg\:mt-0 {
-    margin-top: 0px;
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .lg\:mb-6 {
@@ -2817,16 +2852,20 @@ video {
     margin-bottom: 2rem;
   }
 
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:ml-44 {
+    margin-left: 11rem;
+  }
+
+  .lg\:mr-44 {
+    margin-right: 11rem;
   }
 
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 
   .lg\:w-3\/4 {
@@ -2845,10 +2884,6 @@ video {
     flex-direction: row;
   }
 
-  .lg\:items-start {
-    align-items: flex-start;
-  }
-
   .lg\:items-center {
     align-items: center;
   }
@@ -2861,16 +2896,17 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:gap-14 {
+    gap: 3.5rem;
+  }
+
   .lg\:gap-4 {
     gap: 1rem;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
-  }
-
-  .lg\:gap-14 {
-    gap: 3.5rem;
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .lg\:px-5 {
@@ -2883,22 +2919,23 @@ video {
     padding-bottom: 1rem;
   }
 
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .lg\:text-center {
     text-align: center;
-  }
-
-  .lg\:text-\[20px\] {
-    font-size: 20px;
   }
 
   .lg\:text-\[14px\] {
@@ -2916,10 +2953,6 @@ video {
   .lg\:text-\[38px\] {
     font-size: 38px;
   }
-
-  .lg\:text-\[\] {
-    color: ;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -2934,10 +2967,6 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:top-\[380px\] {
-    top: 380px;
-  }
-
   .\32xl\:top-\[386px\] {
     top: 386px;
   }
@@ -2945,22 +2974,6 @@ video {
   .\32xl\:my-\[160px\] {
     margin-top: 160px;
     margin-bottom: 160px;
-  }
-
-  .\32xl\:mt-\[30px\] {
-    margin-top: 30px;
-  }
-
-  .\32xl\:mt-\[50px\] {
-    margin-top: 50px;
-  }
-
-  .\32xl\:mb-\[30px\] {
-    margin-bottom: 30px;
-  }
-
-  .\32xl\:mt-\[10px\] {
-    margin-top: 10px;
   }
 
   .\32xl\:mb-\[10px\] {
@@ -2971,21 +2984,24 @@ video {
     margin-bottom: 20px;
   }
 
-  .\32xl\:mt-\[160px\] {
-    margin-top: 160px;
+  .\32xl\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
+  .\32xl\:mt-\[10px\] {
+    margin-top: 10px;
   }
 
   .\32xl\:mt-\[20px\] {
     margin-top: 20px;
   }
 
-  .\32xl\:max-w-\[900px\] {
-    max-width: 900px;
+  .\32xl\:mt-\[30px\] {
+    margin-top: 30px;
   }
 
-  .\32xl\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
+  .\32xl\:max-w-\[900px\] {
+    max-width: 900px;
   }
 
   .\32xl\:px-36 {
@@ -2998,30 +3014,18 @@ video {
     padding-right: 20px;
   }
 
-  .\32xl\:py-\[18px\] {
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }
-
   .\32xl\:py-\[14px\] {
     padding-top: 14px;
     padding-bottom: 14px;
   }
 
-  .\32xl\:text-\[80px\] {
-    font-size: 80px;
+  .\32xl\:py-\[18px\] {
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 
-  .\32xl\:text-\[72px\] {
-    font-size: 72px;
-  }
-
-  .\32xl\:text-\[64px\] {
-    font-size: 64px;
-  }
-
-  .\32xl\:text-\[68px\] {
-    font-size: 68px;
+  .\32xl\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .\32xl\:text-\[18px\] {
@@ -3032,27 +3036,23 @@ video {
     font-size: 20px;
   }
 
-  .\32xl\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .\32xl\:text-\[16px\] {
-    font-size: 16px;
+  .\32xl\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .\32xl\:text-\[28px\] {
     font-size: 28px;
   }
 
+  .\32xl\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .\32xl\:text-\[45px\] {
     font-size: 45px;
   }
 
-  .\32xl\:text-\[25px\] {
-    font-size: 25px;
-  }
-
-  .\32xl\:text-\[18x\] {
-    color: 18x;
+  .\32xl\:text-\[68px\] {
+    font-size: 68px;
   }
 }

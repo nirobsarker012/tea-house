@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       container:{
         center: true,
-        padding : "20px",
+        padding : "30px",
       },
       fontFamily:{
         "man" : ["Manrope", "serif"],
